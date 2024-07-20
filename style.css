@@ -1,0 +1,48 @@
+body {
+    font-family: Helvetica, sans-serif; 
+    font-size: 9vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+
+    --bg-color: #F3F7F9;
+    --text-color: #444;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+div {
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+#clock {
+    font-size: 1.3em;
+}
+
+#date {
+    font-family: Helvetica, sans-serif; 
+    color: rgb(200, 200, 200);
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        --bg-color: #2c2c2c;
+        --text-color: #ced8de;
+        background-color: var(--bg-color);
+        color: var(--text-color);
+    }
+
+    #date {
+        font-family: Helvetica, sans-serif; 
+        color: rgb(100, 100, 100);
+    }
+
+    #favicon {
+        content: url('icons/time-light.svg');
+    }
+}

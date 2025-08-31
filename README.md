@@ -1,5 +1,7 @@
 # Clock Display Extension
 
+**_NOTE:_** Available on Chromium-based.
+
 Display clock when opening a new tab
 
 ## Install
